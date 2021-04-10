@@ -32,3 +32,16 @@ Lasso Reg helps with overfitting problem and also with feture selection.
 ***Use Ridge if we have strong relationship b/w features
 
 https://www.analyticsvidhya.com/blog/2016/01/ridge-lasso-regression-python-complete-tutorial/
+
+
+3. Multiple Linear Regression:
+Multiple linear regression (MLR), also known simply as multiple regression, is a statistical technique that uses several explanatory variables to predict the outcome of a response variable. 
+y=β1x1+β2x2+⋯+βnxn+β0
+3D Space - Look at Propensity and Brittleness
+https://aegis4048.github.io/mutiple_linear_regression_and_visualization_in_python
+
+4. MultiCollinearity: In regression, "multicollinearity" refers to predictors that are correlated with other predictors. Multicollinearity occurs when your model includes multiple factors that are correlated not just to your response variable, but also to each other. In other words, it results when you have factors that are a bit redundant
+
+
+
+
