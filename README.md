@@ -34,7 +34,7 @@ fit() model estimates the prameters and returns model information to variable:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 2. ## 
+## 2. Why Ridge and Lasso?## 
 In case of Linear Regression, due to low training data, cost function can give 0 with training data. But with test data, it will give error.
     This causes 'OverFitting.'
      OverFitting -> High Variance
