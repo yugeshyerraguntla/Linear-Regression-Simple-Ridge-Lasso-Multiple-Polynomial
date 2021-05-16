@@ -1,7 +1,7 @@
 # Linear-Regression-Simple-Ridge-Lasso-Multiple-Polynomial
 This repo contains Linear Regression - Simple, Ridge,Lasso,Multiple,Polynomial, Visualize Multi etc.
 
-1. Linear Regression:
+## 1. Linear Regression:
   - We have our features as independent variables, on which our target variable is dependent upon.
   - y=mx+b    (traditional slope-intercept form, where m and b are the variables our algorithm will try to “learn” to produce the most accurate predictions. x-input y-prediction.)
   - Multivariate: f(x,y,z)=w1x+w2y+w3z
@@ -17,8 +17,26 @@ This repo contains Linear Regression - Simple, Ridge,Lasso,Multiple,Polynomial, 
 https://www.analyticsvidhya.com/blog/2017/06/a-comprehensive-guide-for-linear-ridge-and-lasso-regression/
 https://ml-cheatsheet.readthedocs.io/en/latest/linear_regression.html
 
-2.  In case of Linear Regression, due to low training data, cost function can give 0 with training data. But with test data, it will give error.
-    This causes 'OverFitting.' 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+fit() model estimates the prameters and returns model information to variable:
+
+**Model Diagnostics:**
+
+1. R^2 - Coeff. of Determination: R^2 = SSR/SST = Explained Variation/Total Variation. Lies btw 0-1 and Higher R^2, better the fit.
+2. Hypothesis Test for Regression Co-Efficient 
+3. ANOVA - Analysis Of Variance F=MSR/MSE
+4. Residual Analysis: 1. P-P Plot and Residual Plot
+5. Outlier Analysis:
+  - Z Score: If > 3; Outlier
+  - Cooks Distance: If > 1; Outlier
+  - Leverage Values: Graph with bubbles
+  - Mahalanobis Distance
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 2. ## 
+In case of Linear Regression, due to low training data, cost function can give 0 with training data. But with test data, it will give error.
+    This causes 'OverFitting.'
      OverFitting -> High Variance
      With help of Ridge and Lasso, -> we can reduce Variance.
      
